@@ -1,0 +1,15 @@
+Web工程结构
+  - JSP和常规Web内容（HTML，样式表，图片，等）
+    主目录或子目录
+  - Servlets:
+     放置在WEB-INF/classes目录下（匹配的包名称）
+  - 没有打包的JavaBean和工具类
+     放置在WEB-INF/classes目录下（匹配的包名称）
+  - JAR文件
+     放置在WEB-INF/lib目录下
+  - web.xml：
+     放置在WEB-INF下面
+  - 标签库描述文件（TLD文件）
+     放置在WEB-INF下或子目录下
+  - WEB-INF的文件不能由客户端直接访问
+     可以使用RequestDIspatcher转发到WEB-INF下
