@@ -13,3 +13,7 @@ Web工程结构
      放置在WEB-INF下或子目录下
   - WEB-INF的文件不能由客户端直接访问
      可以使用RequestDIspatcher转发到WEB-INF下
+  
+  图片：
+  
+  
